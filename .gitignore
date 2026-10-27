@@ -1,0 +1,11 @@
+# Dependencies & build
+node_modules/
+dist/
+build/
+
+# WordPress & OS
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+{
+	"name": "patronraise-app",
+	"version": "1.0.0",
+	"description": "PatronRaise management SPA for WordPress",
+	"private": true,
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"lint:js": "wp-scripts lint-js src/",
+		"lint:css": "wp-scripts lint-style src/"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^28.0.0",
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"react-router-dom": "^6.0.0"
+	}
+}
